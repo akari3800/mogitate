@@ -15,3 +15,5 @@ yarn-error.log
 /.vscode
 !/storage/app/public/products/
 !/storage/app/public/products/*
+docker/mysql/data/
+
