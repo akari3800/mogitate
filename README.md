@@ -1,16 +1,17 @@
 # 環境構築
 
 1. 下記URLでプロジェクトをクローンする
-    ```
-    https://github.com/akari3800/mogitate.git
-    ```
+   ```
+   https://github.com/akari3800/mogitate.git
+   ```
 1. 下記コマンドでDockerをビルドする
-    ```
-    docker-compose up -d --build
-    ```
+   ```
+   docker-compose up -d --build
+   ```
 
 # Laravel環境構築
 
+```
 - 以下の手順で環境構築を行う
   docker-compose exec php bash
   composer install
@@ -18,6 +19,8 @@
   php artisan key:generate
   php artisan migrate
   php artisan db:seed
+  php artisan storage:link
+```
 
 # 開発環境
 
