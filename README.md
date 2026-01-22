@@ -6,6 +6,7 @@
    ```
 1. 下記コマンドでDockerをビルドする
    ```
+   cd mogitate
    docker-compose up -d --build
    ```
 
