@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__heading {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 32px;
+    color: rgb(235, 197, 63);
+    margin: 0;
+}
